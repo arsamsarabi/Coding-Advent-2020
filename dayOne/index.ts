@@ -21,9 +21,13 @@ const partOne = (): void => {
     }
   }
 
-  console.log('--------------------------------')
-  console.log('|  Part 1 =>')
-  console.log('--------------------------------')
+  console.log()
+  console.log('-------------------------------------------')
+  console.log('| Part 1:')
+  console.log('|')
+  console.log('| Find the two entries that sum to 2020 and')
+  console.log('| then multiply those two numbers together.')
+  console.log('-------------------------------------------')
   console.log('Number 1: ', numberOne)
   console.log('Number 2: ', numberTwo)
   console.log('Result: ', result)
@@ -58,9 +62,13 @@ const partTwo = (): void => {
     }
   }
 
-  console.log('--------------------------------')
-  console.log('|   Part 2 =>')
-  console.log('--------------------------------')
+  console.log()
+  console.log('-------------------------------------------')
+  console.log('| Part 2:')
+  console.log('|')
+  console.log('| Find three numbers in your expense report')
+  console.log('| that meet the same criteria.')
+  console.log('-------------------------------------------')
   console.log('Number 1: ', numberOne)
   console.log('Number 2: ', numberTwo)
   console.log('Number 3: ', numberThree)
