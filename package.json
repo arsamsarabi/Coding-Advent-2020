@@ -1,0 +1,19 @@
+{
+  "name": "coding-advent-2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arsamsarabi/Coding-Advent-2020.git",
+  "author": "Arsam Sarabi <arsamsarabi@me.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.14.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "dayOne": "ts-node ./dayOne/index"
+  }
+}

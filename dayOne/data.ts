@@ -1,4 +1,4 @@
-const EXPENSES_AMOUNT = [
+export const EXPENSES_AMOUNT: number[] = [
   1337,
   1906,
   2007,
@@ -200,65 +200,3 @@ const EXPENSES_AMOUNT = [
   1456,
   1974,
 ];
-
-function partOne() {
-  let result;
-  let numberOne;
-  let numberTwo;
-
-  for (let i = 0; i <= EXPENSES_AMOUNT.length; i++) {
-    if (result) break;
-
-    for (let j = i + 1; j <= EXPENSES_AMOUNT.length; j++) {
-      if (result) break;
-
-      if (EXPENSES_AMOUNT[i] + EXPENSES_AMOUNT[j] === 2020) {
-        numberOne = EXPENSES_AMOUNT[i];
-        numberTwo = EXPENSES_AMOUNT[j];
-        result = numberOne * numberTwo;
-      }
-    }
-  }
-
-  console.log("Number 1: ", numberOne);
-  console.log("Number 2: ", numberTwo);
-  console.log("Result: ", result);
-}
-
-partOne();
-
-function partTwo() {
-  let result;
-  let numberOne;
-  let numberTwo;
-  let numberThree;
-
-  for (let i = 0; i <= EXPENSES_AMOUNT.length; i++) {
-    if (result) break;
-
-    for (let j = i + 1; j <= EXPENSES_AMOUNT.length; j++) {
-      if (result) break;
-
-      for (let k = i + 2; k <= EXPENSES_AMOUNT.length; k++) {
-        if (result) break;
-
-        if (
-          EXPENSES_AMOUNT[i] + EXPENSES_AMOUNT[j] + EXPENSES_AMOUNT[k] ===
-          2020
-        ) {
-          numberOne = EXPENSES_AMOUNT[i];
-          numberTwo = EXPENSES_AMOUNT[j];
-          numberThree = EXPENSES_AMOUNT[k];
-          result = numberOne * numberTwo * numberThree;
-        }
-      }
-    }
-  }
-
-  console.log("Number 1: ", numberOne);
-  console.log("Number 2: ", numberTwo);
-  console.log("Number 3: ", numberThree);
-  console.log("Result: ", result);
-}
-
-partTwo();
