@@ -16,6 +16,7 @@
   "scripts": {
     "dayOne": "ts-node ./dayOne",
     "dayTwo": "ts-node ./dayTwo",
-    "dayThree": "ts-node ./dayThree"
+    "dayThree": "ts-node ./dayThree",
+    "dayFour": "ts-node ./dayFour"
   }
 }
