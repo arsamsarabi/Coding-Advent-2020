@@ -18,6 +18,7 @@
     "dayTwo": "ts-node ./dayTwo",
     "dayThree": "ts-node ./dayThree",
     "dayFour": "ts-node ./dayFour",
-    "dayFive": "ts-node ./dayFive"
+    "dayFive": "ts-node ./dayFive",
+    "daySix": "ts-node ./daySix"
   }
 }
